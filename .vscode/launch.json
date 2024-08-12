@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "optimizer_test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/optimizer_test.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "classifier",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/classifier.py",
+            "console": "integratedTerminal",
+            "args": ["--use_gpu", "--fine-tune-mode", "last-linear-layer", "--lr", "1e-3", "--use_rotary_embed"]
+        },
+        {
+            "name": "multi_task",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/multitask_classifier.py",
+            "console": "integratedTerminal",
+            "args": ["--fine-tune-mode", "full-model", "--lr", "1e-5"]
+        }
+    ]
+}

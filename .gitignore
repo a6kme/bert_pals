@@ -1,0 +1,10 @@
+data/
+uncased_L-12_H-768_A-12/bert_model*
+uncased_L-12_H-768_A-12/pytorch_model.bin
+data.zip
+uncased_L-12_H-768_A-12.zip
+predictions/
+runs/
+__pycache__/
+*.pyc
+logs/
