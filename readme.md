@@ -7,6 +7,9 @@ We examine different approaches to improve the performance of the Bidirectional 
 ### Presentation
 [You can watch the presentation here](https://www.youtube.com/watch?v=CnU84SRuEsg)
 
+### Poster
+![Poster](poster.jpg "poster")
+
 ### Setup and Running
 1. Setup a virtual environment `conda create -n cs224n_dfp python`
 1. Activate the virutal environment `conda activate cs224n_dfp`
